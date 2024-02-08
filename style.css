@@ -13,9 +13,10 @@ body {
 }
 
 .container {
-    background-color: rgba(128, 128, 128, 0.555);
+    background-color: rgba(128, 128, 128, 0.808);
     padding: 20px;
     border-radius: 10px;
+    width: 40%;
 }
 
 .logo{
@@ -73,3 +74,22 @@ button{
     color: white;
     font-family: 'Nunito Sans', sans-serif;
 }
+
+.input-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(4, 56, 20);
+   
+}
+
+a:hover{
+   color: darkblue;
+}
+
+
